@@ -9,7 +9,7 @@ pipeline {
         }
         stage (build) {
             steps {
-                sh 'docker image build -t chandu:1.0'
+                sh 'docker image build -t chandu:1.0 .'
             }
         }
     }
